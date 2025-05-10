@@ -1,0 +1,140 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body.index {
+  background: url("assets/images/pool-bg.jpg") center/cover no-repeat;
+  color: #153c64;
+}
+
+body.directions {
+  background: #f5faff;
+  color: #153c64;
+}
+
+body.prices {
+  background: url("assets/images/aqua-bg2.jpg") center/cover no-repeat;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+body.reviews-page {
+  background-color: #f5faff;
+}
+
+body.schedules {
+  font-family: "Poppins", sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  background: #0070e0;
+}
+
+nav ul a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+nav ul a:visited {
+  color: purple;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #0070e0;
+  color: #fff;
+}
+
+section {
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 1000px;
+  background: rgba(245, 250, 255, 0.9);
+}
+
+.float-frame {
+  float: right;
+  margin: 0 0 1rem 1rem;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #ccc !important;
+}
+
+a.external {
+  color: #36b4af !important;
+  text-decoration: underline !important;
+}
+
+a.external:visited {
+  color: purple !important;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+dl {
+  font-style: italic;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 20px;
+}
+
+table {
+  width: 90%;
+  margin: 2rem auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: #0070e0;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background: #eaf4fc;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.complex-table colgroup col:nth-child(1) {
+  background: #bed5eb;
+}
+
+.complex-table colgroup col:nth-child(2) {
+  background: #eaf4fc;
+}
+
+.complex-table td[rowspan] {
+  background: #d0ebff;
+}
