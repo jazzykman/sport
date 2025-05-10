@@ -7,40 +7,49 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body class="index">
-    <nav>
-      <ul>
-        <li><a href="index.html#intro">Про клуб</a></li>
-        <li><a href="directions.html#services">Послуги</a></li>
-        <li><a href="schedules.html#table">Розклад</a></li>
-        <li><a href="prices.html">Ціни</a></li>
-        <li><a href="reviews.html">Відгуки</a></li>
-      </ul>
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="logo">🏊 Energia</a>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Головна</a></li>
+          <li><a href="directions.html">Послуги</a></li>
+          <li><a href="schedules.html">Розклад</a></li>
+          <li><a href="prices.html">Ціни</a></li>
+          <li><a href="reviews.html">Відгуки</a></li>
+        </ul>
+      </div>
     </nav>
 
-    <section id="intro">
-      <h1>Ласкаво просимо до Плавального клубу "Energia"</h1>
-      <p>
-        Наш клуб пропонує заняття плаванням на будь-якому рівні: від початківців
-        до профі. <em>Запрошуємо вас на комфортні тренування!</em>
-      </p>
-      <img
-        src="assets/images/swim_intro.jpg"
-        alt="Плавальний басейн"
-        width="400"
-        height="300"
-        class="float-frame"
-      />
-      <p>
-        Більше про нас
-        <a href="https://kpi.ua" target="_blank" class="external"
-          >на офіційному сайті КПІ</a
-        >.
-      </p>
-      <div class="info-box">
-        <h2>Чому обирають нас?</h2>
-        <p>Сучасні басейни, професійні тренери, комфортні умови.</p>
-      </div>
-    </section>
+    <main>
+      <section id="intro">
+        <h1>Ласкаво просимо до Плавального клубу "Energia"</h1>
+        <p>
+          Наш клуб пропонує заняття плаванням на будь-якому рівні: від
+          початківців до профі. <em>Запрошуємо вас на комфортні тренування!</em>
+        </p>
+        <div class="float-box">
+          <img
+            src="assets/images/swim_intro.jpg"
+            alt="Плавальний басейн"
+            width="400"
+            height="300"
+          />
+          <p>
+            Більше про нас
+            <a href="https://kpi.ua" target="_blank" class="external"
+              >на офіційному сайті КПІ</a
+            >.
+          </p>
+        </div>
+        <div class="info-box">
+          <h2>Чому обирають нас?</h2>
+          <p>
+            <span class="highlight">Сучасні басейни</span>, професійні тренери,
+            комфортні умови.
+          </p>
+        </div>
+      </section>
+    </main>
 
     <footer>&copy; 2025 Плавальний клуб "Energia"</footer>
   </body>
