@@ -1,0 +1,173 @@
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="ІС-31 Сичов Артем" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Розклад – Плавальний клуб "Energia"</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        padding: 0.5rem;
+        background: #0070e0;
+      }
+      nav ul a {
+        color: #fff;
+        text-decoration: underline;
+      }
+      nav ul a:visited {
+        color: purple;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 1rem;
+      }
+      table {
+        width: 90%;
+        margin: 2rem auto;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid #ccc;
+        padding: 1rem;
+        text-align: center;
+      }
+      th {
+        background: #0070e0;
+        color: #fff;
+      }
+      tr:nth-child(even) {
+        background: #eaf4fc;
+      }
+      caption {
+        font-weight: bold;
+        padding-bottom: 1rem;
+      }
+      .complex-table {
+        width: 90%;
+        margin: 2rem auto;
+        border-collapse: collapse;
+      }
+      .complex-table th,
+      .complex-table td {
+        border: 1px solid #000;
+        padding: 0.5rem;
+      }
+      .complex-table colgroup col:nth-child(1) {
+        background: #bed5eb;
+      }
+      .complex-table colgroup col:nth-child(2) {
+        background: #eaf4fc;
+      }
+      .complex-table td[rowspan] {
+        background: #d0ebff;
+      }
+      footer {
+        text-align: center;
+        padding: 1rem;
+        background: #0070e0;
+        color: #fff;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="directions.html">Напрямки</a></li>
+        <li><a href="schedules.html#simple">Розклад</a></li>
+      </ul>
+    </nav>
+
+    <h1>Розклад групових занять</h1>
+
+    <!-- Проста таблиця -->
+    <table id="simple">
+      <caption>
+        Таблиця 3×4
+      </caption>
+      <tr>
+        <th>
+          <img src="assets/images/aqua1.jpg" width="80" height="60" alt="" />
+        </th>
+        <th>
+          <img src="assets/images/aqua2.jpg" width="80" height="60" alt="" />
+        </th>
+        <th>
+          <img src="assets/images/aqua3.jpg" width="80" height="60" alt="" />
+        </th>
+        <th>
+          <img src="assets/images/aqua4.jpg" width="80" height="60" alt="" />
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <a href="#" style="color: #36b4af; text-decoration: underline"
+            >Посилання 1</a
+          >
+        </td>
+        <td><a href="#">Посилання 2</a></td>
+        <td><a href="#">Посилання 3</a></td>
+        <td><a href="#">Посилання 4</a></td>
+      </tr>
+      <tr>
+        <td>08:00 – Аква аеробіка</td>
+        <td>10:00 – Дитяче плавання</td>
+        <td>12:00 – Індивідуальні заняття</td>
+        <td>18:00 – Гідротерапія</td>
+      </tr>
+    </table>
+
+    <!-- Складна таблиця -->
+    <table class="complex-table">
+      <caption>
+        Складна таблиця: об'єднання, вирівнювання, групування
+      </caption>
+      <colgroup>
+        <col span="1" />
+        <col span="1" />
+        <col span="1" />
+      </colgroup>
+      <tr>
+        <th rowspan="2">Час</th>
+        <th colspan="2">День тижня</th>
+        <th rowspan="2">Заняття</th>
+      </tr>
+      <tr>
+        <td class="centered">Понеділок</td>
+        <td class="centered">Вівторок</td>
+      </tr>
+      <tr>
+        <td>08:00</td>
+        <td>Аква Фіт</td>
+        <td>Сімейне плавання</td>
+        <td>Коучінг</td>
+      </tr>
+      <tr>
+        <td>10:00</td>
+        <td colspan="2">Дитяче плавання</td>
+        <td>Реабілітація</td>
+      </tr>
+      <tr>
+        <td>12:00</td>
+        <td>Відкрите плавання</td>
+        <td>Аква Зумба</td>
+        <td>Free Swim</td>
+      </tr>
+    </table>
+
+    <footer>&copy; 2025 Плавальний клуб "Energia"</footer>
+  </body>
+</html>
