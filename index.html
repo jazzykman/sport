@@ -52,5 +52,38 @@
     </main>
 
     <footer>&copy; 2025 Плавальний клуб "Energia"</footer>
+
+    <script>
+      alert("Ласкаво просимо до Плавального клубу 'Energia'!");
+      const userName = prompt("Як вас звати?");
+      const isMember = confirm("Ви є членом нашого клубу?");
+      if (isMember) {
+        alert(`Дякуємо, ${userName}, що ви з нами!`);
+      } else {
+        alert(`Запрошуємо вас приєднатися, ${userName}!`);
+      }
+    </script>
+    <script src="assets/js/dialog.js"></script>
+    <script>
+      userDialog();
+    </script>
+    <script src="assets/js/developer.js"></script>
+    <script>
+      showDeveloperInfo("Сичов", "Артем", "Студент групи ІС-31");
+    </script>
+    <script src="assets/js/compare.js"></script>
+    <script>
+      compareStrings("Плавання", "Аква аеробіка");
+    </script>
+    <script src="assets/js/background.js"></script>
+    <script>
+      changeBackground();
+      setTimeout(redirectToPage, 30000);
+    </script>
+    <script src="assets/js/dom.js"></script>
+    <script>
+      modifyContent();
+      setTimeout(removeElement, 10000);
+    </script>
   </body>
 </html>
