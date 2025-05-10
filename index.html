@@ -64,9 +64,7 @@
       }
     </script>
     <script src="assets/js/dialog.js"></script>
-    <script>
-      userDialog();
-    </script>
+
     <script src="assets/js/developer.js"></script>
     <script>
       showDeveloperInfo("Сичов", "Артем", "Студент групи ІС-31");
@@ -77,13 +75,14 @@
     </script>
     <script src="assets/js/background.js"></script>
     <script>
-      changeBackground();
-      setTimeout(redirectToPage, 30000);
+      changeBackground(); // Викликаємо зміну фону
     </script>
     <script src="assets/js/dom.js"></script>
     <script>
       modifyContent();
       setTimeout(removeElement, 10000);
+      changeBackground(); // Змінюємо фон на 30 секунд
+      setTimeout(redirectToPage, 30000); // Перенаправляємо через 30 секунд
     </script>
   </body>
 </html>
