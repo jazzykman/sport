@@ -27,66 +27,84 @@
           Наш клуб пропонує заняття плаванням на будь-якому рівні: від
           початківців до профі. <em>Запрошуємо вас на комфортні тренування!</em>
         </p>
-        <div class="float-box">
+        <div class="intro-image">
           <img
             src="assets/images/swim_intro.jpg"
             alt="Плавальний басейн"
-            width="400"
-            height="300"
+            width="600"
+            height="400"
           />
-          <p>
-            Більше про нас
-            <a href="https://kpi.ua" target="_blank" class="external"
-              >на офіційному сайті КПІ</a
-            >.
+        </div>
+        <p class="centered">
+          <a href="directions.html" class="button">Дізнатися більше про нас</a>
+        </p>
+      </section>
+
+      <section id="about-us">
+        <h2>Про наш клуб</h2>
+        <div class="about-us-container">
+          <div class="about-us-block">
+            <p>
+              Плавальний клуб "Energia" – це сучасний спортивний комплекс, який
+              пропонує комфортні умови для тренувань, професійних тренерів та
+              індивідуальний підхід до кожного клієнта. Ми прагнемо створити
+              атмосферу, де кожен може досягти своїх спортивних цілей.
+            </p>
+            <img src="assets/images/pool1.jpg" alt="Сучасний басейн" />
+          </div>
+          <div class="about-us-block">
+            <p>
+              Наші басейни обладнані за останніми стандартами, а тренери мають
+              багаторічний досвід роботи. Ми пропонуємо заняття для дітей,
+              дорослих та сімей, а також спеціальні програми для реабілітації та
+              гідротерапії.
+            </p>
+            <img src="assets/images/coach.jpg" alt="Професійний тренер" />
+          </div>
+        </div>
+      </section>
+
+      <section id="reviews-preview">
+        <h2>Відгуки наших клієнтів</h2>
+        <div class="review-card">
+          <p class="review-text">
+            <strong>Сніжана</strong>: "Чистий клуб та професійні тренери!"
           </p>
         </div>
-        <div class="info-box">
-          <h2>Чому обирають нас?</h2>
-          <p>
-            <span class="highlight">Сучасні басейни</span>, професійні тренери,
-            комфортні умови.
+        <div class="review-card">
+          <p class="review-text">
+            <strong>Даша</strong>: "Індивідуальний підхід та результат через
+            місяць."
           </p>
+        </div>
+        <div class="review-card">
+          <p class="review-text">
+            <strong>Олександр</strong>: "Дуже зручний графік занять."
+          </p>
+        </div>
+        <p class="centered">
+          <a href="reviews.html" class="button">Читати більше відгуків</a>
+        </p>
+      </section>
+
+      <section id="map">
+        <h2>Де нас знайти?</h2>
+        <p class="centered">Ми знаходимося поруч із "Akvapechat Kyiv"!</p>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1462.955550321645!2d30.59940374064959!3d50.45292009081363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cfe53f6022e5%3A0xaa59585b17cf96d4!2sAkvapechat%20Kyiv!5e0!3m2!1sru!2sbg!4v1746975351382!5m2!1sru!2sbg"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </section>
     </main>
 
     <footer>&copy; 2025 Плавальний клуб "Energia"</footer>
-
-    <script>
-      alert("Ласкаво просимо до Плавального клубу 'Energia'!");
-      const userName = prompt("Як вас звати?");
-      const isMember = confirm("Ви є членом нашого клубу?");
-      if (isMember) {
-        alert(`Дякуємо, ${userName}, що ви з нами!`);
-      } else {
-        alert(`Запрошуємо вас приєднатися, ${userName}!`);
-      }
-    </script>
     <script src="assets/js/dialog.js"></script>
-
-    <script src="assets/js/developer.js"></script>
-    <script>
-      showDeveloperInfo("Сичов", "Артем", "Студент групи ІС-31");
-    </script>
-    <script src="assets/js/compare.js"></script>
-    <script>
-      compareStrings("Плавання", "Аква аеробіка");
-    </script>
-    <script src="assets/js/background.js"></script>
-    <script>
-      changeBackground();
-    </script>
-    <script src="assets/js/dom.js"></script>
-    <script>
-      modifyContent();
-      setTimeout(removeElement, 10000);
-      changeBackground();
-      setTimeout(redirectToPage, 30000);
-    </script>
-    <button id="property-handler">Клик через свойство</button>
-    <button id="multi-handler">Клик с несколькими обработчиками</button>
-    <button id="object-handler">Клик через объект</button>
-    <script src="assets/js/events.js"></script>
   </body>
 </html>
