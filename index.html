@@ -75,14 +75,18 @@
     </script>
     <script src="assets/js/background.js"></script>
     <script>
-      changeBackground(); // Викликаємо зміну фону
+      changeBackground();
     </script>
     <script src="assets/js/dom.js"></script>
     <script>
       modifyContent();
       setTimeout(removeElement, 10000);
-      changeBackground(); // Змінюємо фон на 30 секунд
-      setTimeout(redirectToPage, 30000); // Перенаправляємо через 30 секунд
+      changeBackground();
+      setTimeout(redirectToPage, 30000);
     </script>
+    <button id="property-handler">Клик через свойство</button>
+    <button id="multi-handler">Клик с несколькими обработчиками</button>
+    <button id="object-handler">Клик через объект</button>
+    <script src="assets/js/events.js"></script>
   </body>
 </html>

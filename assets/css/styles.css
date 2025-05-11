@@ -4,7 +4,7 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Висота сторінки дорівнює висоті вікна */
+  min-height: 100vh;
 }
 
 body.index {
@@ -118,8 +118,8 @@ section {
 }
 
 .float-box img {
-  border: 2px solid #0070e0; /* Додає рамку */
-  border-radius: 5px; /* Згладжує кути */
+  border: 2px solid #0070e0;
+  border-radius: 5px;
 }
 
 .fixed-banner {
@@ -186,15 +186,14 @@ dd {
   margin-left: 20px;
 }
 
-/* Вирівнювання таблиць по центру */
 table {
-  margin: 0 auto; /* Центрування таблиці */
+  margin: 0 auto;
   border-collapse: collapse;
-  width: 80%; /* Ширина таблиці */
+  width: 80%;
 }
 
 table#simple {
-  margin-bottom: 2rem; /* Відступ між таблицями */
+  margin-bottom: 2rem;
 }
 
 table th,
@@ -265,6 +264,7 @@ button:hover {
 .highlight {
   color: #0070e0;
   font-weight: bold;
+  background-color: yellow;
 }
 
 .info-box {
@@ -319,7 +319,6 @@ button:hover {
   color: #0070e0;
 }
 
-/* Стили для меню навігації */
 .navbar {
   background: #0070e0;
   color: #fff;
@@ -372,14 +371,13 @@ button:hover {
   text-decoration: underline;
 }
 
-/* Контейнер для основного контенту */
 main {
-  flex: 1; /* Займає весь доступний простір між хедером і футером */
+  flex: 1;
 }
 
 img {
-  max-width: 100%; /* Забезпечує адаптивність зображення */
-  height: auto; /* Зберігає пропорції */
-  display: block; /* Усуває зайві відступи */
-  margin: 0 auto; /* Центрує зображення */
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
